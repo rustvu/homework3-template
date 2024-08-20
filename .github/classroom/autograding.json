@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "geo::tests::test_new",
+      "setup": "",
+      "run": "cargo test geo::tests::test_new",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "geo::tests::test_derived_traits",
+      "setup": "",
+      "run": "cargo test geo::tests::test_derived_traits",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "geo::tests::test_distance_point",
+      "setup": "",
+      "run": "cargo test geo::tests::test_distance_point",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "test_from_line",
+      "setup": "",
+      "run": "cargo test test_from_line",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "test_read_track",
+      "setup": "",
+      "run": "cargo test test_read_track",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "test_total_distance",
+      "setup": "",
+      "run": "cargo test test_total_distance",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "test_average_speed",
+      "setup": "",
+      "run": "cargo test test_average_speed",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "test_max_speed",
+      "setup": "",
+      "run": "cargo test test_max_speed",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
